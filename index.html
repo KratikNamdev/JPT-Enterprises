@@ -3,9 +3,198 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JPT Enterproses</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezFg7n7u7P5dMu7Ie7t85y5B2br8P7+0Uq3Fq3P1bK3b9M5oq6M5F5j5g5i5t5u5q5j5d5h5k5" crossorigin="anonymous">
+    <title>JPT Enterprises</title>
 </head>
 <body>
-    <h1>JPT Enterproses</h1>
+   <div class="conten">
+<div class="main">
+<div class="cover">
+    <!-- COVER IMG -->
+    <img src="./Assets/web_banner_-8_1920x.jpg">
+
+</div>
+
+<div class="pro">
+    <div class="profile">
+        <!-- <img src="./Assets/logo.jpg"> -->
+
+    </div>
+<br>
+<!-- name  -->
+<h1>Johar Power Tools</h1>
+<br>
+<!-- servies -->
+<p>Johar Power Tools (JPT), a reliable and well-known power and hand tools dealer since 1995
+</p>
+
+
+
+</div>
+
+<h1 class="connect-head">
+    LET'S CONNECT US
+</h1>
+
+<div class="connect-icons">
+    <div class="iconback">
+        <a href="tel:+919074508686"><i class="fa-solid fa-phone"></i></a>  
+    </div>
+    <div class="iconback">
+        <a href="sms:+919074508686"><i class="fa-solid fa-message"></i></a>
+        
+    </div>
+    <div class="iconback">
+        <a href="https://api.whatsapp.com/send?phone=919074508686">
+
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+    </div>
+    <div class="iconback">
+      <a href="mailto:jptpayments@gmail.com">
+
+      </a>
+
+            <i class="fa-solid fa-envelope-open"></i>
+        </a>
+    </div>
+   
+</div>
+
+
+
+<div class="socialheading">
+<h1 >Social Media</h1>
+
+
+</div>
+<br>
+<div class="connect-icons">
+    <div class="iconback">
+
+        <a href="https://www.instagram.com/jpttools">
+
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+    </div>
+    <div class="iconback">
+        <a href="https://www.facebook.com/jpttools">
+
+            <i class="fa-brands fa-facebook"></i>
+        </a>
+    </div>
+    <div class="iconback">
+        <a href="https://www.linkedin.com/in/jpttools">
+
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
+    </div>
+    <div class="iconback">
+        <a href="https://www.youtube.com/@jpttools">
+
+            <i class="fa-brands fa-youtube"></i>
+        </a>
+    </div>
+   
+</div>
+<div class="connect-icons">
+    <div class="iconback">
+        <a href="https://twitter.com/JptTools">
+
+            <i class="fa-brands fa-x-twitter"></i>
+        </a>
+    </div>
+    <div class="iconback">
+        <a href="https://pinterest.com/jpttools">
+
+            <i class="fa-brands fa-pinterest"></i>
+        </a>
+    </div>
+    <div class="iconback">
+        <i class="fa-solid fa-download"></i>
+    </div>
+   
+   
+</div>
+
+
+
+<div class="socialheading">
+    <h1 >Websites & Links</h1>
+    
+    
+    </div>
+    <br>
+    <div class="connect-icons">
+        <div class="iconback">
+            <a href="https://jpttools.com">
+
+                <i class="fa-solid fa-globe"></i>
+            </a>
+        </div>
+        <div class="iconback">
+
+            <a href="https://maps.app.goo.gl/Z2PXwNVEo565Vu3E9">
+
+                <i class="fa-brands fa-google-plus-g"></i>
+            </a>
+        </div>
+        <div class="iconback">
+            <a href="https://maps.app.goo.gl/Z2PXwNVEo565Vu3E9">
+
+                <i class="fa-solid fa-location-dot"></i>
+            </a>
+        </div>
+        <div class="iconback" id="shareButton">
+            <i class="fa-solid fa-share-nodes"></i>
+        </div>
+       
+    </div>
+
+
+
+
+<div class="desc"> 
+    <h4>Description of Bussiness</h4>
+    <p>Welcome to Johar Power Tools (JPT), a reliable and well-known power and hand tools dealer since 1995. We offer a wide variety of top quality tools, including pressure washer, power tools, hand tools, and cordless options, all known for their precision and quality. 
+
+        Our focus on offering superior products and excellent service. JPT Tools is always aims to meet international standards and ensuring our customers are happy with our products in terms of quality, cost, performance, safety, and reliability. We believe in working together, growing our skills, and being committed to providing the best products quickly and with great care.</p>
+</div>
+<footer>
+    <h3>It's Nice To</h3>
+    <p>Connect With You</p>
+
+</footer>
+<div style="text-align: center;">
+    <p class="cp">© Default Props</p>
+</div>
+
+</div>
+
+   </div>
+
+
+   <script>
+    const shareButton = document.getElementById('shareButton');
+    
+    shareButton.addEventListener('click', () => {
+        if (navigator.share) {
+            navigator.share({
+                title: 'Share Example',
+                text: 'Check out this link!',
+                url: window.location.href
+            })
+            .then(() => console.log('Link shared successfully'))
+            .catch((error) => console.error('Error sharing link:', error));
+        } else {
+            alert('Web Share API is not supported in this browser. You can manually copy the link to share.');
+        }
+    });
+</script>
 </body>
 </html>
